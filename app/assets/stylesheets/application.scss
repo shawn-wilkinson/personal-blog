@@ -16,6 +16,44 @@
 
 @import "semantic-ui";
 
-body{
-  background-image: url(image_path('connect/connect.png'));
+
+$primary: #24A9C2;
+$accent-light: #2FDFFF;
+$accent-white: #D8FFFF;
+$accent-dark: #000028;
+
+body {
+  background-color: white;
+  color: $accent-dark;
+}
+
+#mainnav {
+  background-color: $accent-light;
+  color: lime;
+  height:5%;
+
+  .item{
+    color:$accent-dark;
+  }
+}
+
+#mainfooter{
+  height:10%;
+  background-color:$accent-dark;
+  a i{
+    font-size:20px;
+    color:$accent-white;
+  }
+}
+
+.container{
+  padding:10%;
+  min-height:85%
+}
+
+#about-images{
+  margin:auto;
+  height:400px;
+  background: url(image_path('aboutslides/about1.jpg')) no-repeat;
+  background-size: contain;
 }

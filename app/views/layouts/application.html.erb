@@ -13,7 +13,7 @@
 <body>
 
 
-  <div class="ui top fixed menu">
+  <div id="mainnav" class="ui top fixed menu">
     <div class="item">
       <i class="send icon"></i>
     </div>
@@ -22,19 +22,19 @@
     <%= link_to "Blog", posts_path, :class => "item"%>
     <%= link_to "Projects", projects_path, :class => "item"%>
   </div>
-  <br>
-  <br>
 
   <div class="container">
-    <%= yield %>
-
-    <div class="ui inverted vertical fixed footer segment">
+    <div class="ui grid">
+      <%= yield %>
+    </div>
+  </div>
+    <div id="mainfooter" class="ui inverted vertical fixed footer segment">
       <a href=""><i class="twitter icon"></i></a>
       <a href=""><i class="linkedin icon"></i></a>
       <a href=""><i class="github icon"></i></a>
       <a href=""><i class="send icon"></i></a>
     </div>
-  </div>
+
 
 </body>
 </html>
