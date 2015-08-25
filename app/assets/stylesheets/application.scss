@@ -29,7 +29,6 @@ body {
 
 #mainnav {
   background-color: $accent-light;
-  color: lime;
   height:5%;
 
   .item{
@@ -40,6 +39,7 @@ body {
 #mainfooter{
   height:10%;
   background-color:$accent-dark;
+  padding:auto 0px auto 35px;
   a i{
     font-size:20px;
     color:$accent-white;
@@ -49,6 +49,22 @@ body {
 .container{
   padding: 5% 10% 10% 10%;
   min-height:85%;
+}
+
+.welcome-message{
+  width:50%;
+  padding:10%;
+  h2{
+    font-size:40px;
+  }
+  h4{
+    font-size:20px;
+  }
+}
+
+.project-info a i{
+  color:$accent-dark;
+  font-size:18px;
 }
 
 #about-images{
