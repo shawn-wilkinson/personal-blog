@@ -67,9 +67,9 @@ body {
   font-size:18px;
 }
 
-#about-images{
+#about-image{
   margin:auto;
-  height:400px;
-  background: url(image_path('aboutslides/about1.jpg')) no-repeat;
+  width:80%;
+  min-width:300px;
   background-size: contain;
 }
